@@ -1,0 +1,51 @@
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.carousel-item {
+    transition: 0.5s;
+}
+
+#carouselItems {
+    /* width: 98%; */
+    height: 100%;
+}
+
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background: linear-gradient(#ffffff00, #ffffff);
+}
+
+#carouselExample button {
+    position: absolute;
+    bottom: 350px;
+}
+
+
+/* cards */
+
+#card-cont .row {
+}
+
+#card-cont {
+    /* width: 100%; */
+    position: relative;
+    top: -350px;
+}
+
+#card-cont .card h5{
+    font-weight: bold;
+}
+
+#card-cont .card {
+    width: 350px;
+    padding: 20px;
+    height: 400px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./calisma.css">
+    <link rel="stylesheet" href="./calisma_main.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <nav class="bg-siyah">
+        <div class="nav_up">
+            <div class="nav_start">
+                <div class="nav_start_start">
+                    <img src="./img/amazon_logo.JPG" class="nav_start_start_logo">
+                </div>
+                <div class="nav_start_end">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>Merhaba <br> <b class="font_size_14">Teslimat adresini seçin</b></div>
+                </div>
+            </div>
+            
+            <div class="nav_middle">
+                <form>
+                    <div class="nav_middle_start bg-gri"><p>Tüm Kategoriler <i class="fa-solid fa-caret-down"></i></p></div>
+                    <label for="input"></label>
+                    <input class="nav_middle_middle" type="text" name="input">
+    
+                    <div class="nav_middle_end">
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass" type="submit"></i>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    
+            <div class="nav_end">
+                <div class="nav_end_start">Merhaba, Giriş yapın <br> <b class="font_size_14">Hesap ve Listeler</b></div>
+                <div class="nav_end_middle">İadeler <br> <b class="font_size_14">ve Siparişler</b></div>
+                <div class="nav_end_end">
+                    <i class="fa-solid fa-cart-arrow-down"></i>
+                    <div>Alışveriş <br> <b class="font_size_14">Sepeti</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_down">
+            <div class="nav_down_item">
+                <i class="fa-solid fa-bars"></i>
+                <div>Tümü</div>
+            </div>
+            <div class="nav_down_item">Satış Yap</div>
+            <div class="nav_down_item">Hediye Kartları</div>
+            <div class="nav_down_item">Çok Satanlar</div>
+            <div class="nav_down_item">Yılın Son Fırsatları</div>
+            <div class="nav_down_item">Prime</div>
+            <div class="nav_down_item">Müşteri Hizmetleri</div>
+            <div class="nav_down_item">Amazon Ayrıcalıkları</div>
+            <div class="nav_down_item">Yeni Çıkanlar</div>
+            <div class="nav_down_item">Moda</div>
+            <div class="nav_down_item">Elektronik</div>
+            <div class="nav_down_item">Kitap</div>
+            <div class="nav_down_item">Bilgisayar</div>
+            <div class="nav_down_item">Spor ve Açık Hava Aktiviteleri</div>
+        </div>
+    </nav>
+
+<!-- Carousel -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div id="carouselItems" class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://m.media-amazon.com/images/I/815PrKx0ejL._SX3000_.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/I/71zWqbBwLyL._SX3000_.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://m.media-amazon.com/images/I/61n8ySg-aAL._SX3000_.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div id="gradient"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"       data-bs-target="#carouselExample"data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- cards -->
+
+    <div id="card-cont" class="container-fluid justify-content-center">
+        <div class="row justify-content-between">
+            <div class="card col-3">
+                <h5 class="card-title">Prime ile bedava kargo ve eğlence. Ayda 7,90 TL</h5>
+                <img src="./img/newprimebanner._SY304_CB634738554_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Günün Fırsatları</h5>
+                <img src="./img/TR22_LDOY_DESKTOP_CARD_379x304._SY304_CB619317023_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Erkek ayakkabılarında indirimleri keşfedin</h5>
+                <img src="./img/TR22_PEAS_Amazon_Super_DashboardCard_Desktop_379X304._SY304_CB608495361_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">En iyi deneyim için kaydolun</h5>
+                <img src="./img/TR22_TR22_Products_Installment_Desktop_Cards_379x304._SY304_CB621554523_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Yılın Son Fırsatları: 19-26 Aralık</h5>
+                <img src="./img/TR22TR22_Coupons_TEST_Desktop_Hero_379x304._SY304_CB606975246_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Amazon Süper ile sepete ekledikçe kazan</h5>
+                <img src="./img/XCM_CUTTLE_1473767_2604691_379x304_1X_tr_TR._SY304_CB608420565_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Kuponlarla sepette ekstra indirimlerin keyfini çıkar</h5>
+                <img src="./img/TR22_LDOY_DESKTOP_CARD_379x304._SY304_CB619317023_.jpg" alt="">
+            </div>
+    
+            <div class="card col-3">
+                <h5 class="card-title">Vade farksız 12 aya varan taksit imkanı</h5>
+                <img src="./img/TR22_PEAS_Amazon_Super_DashboardCard_Desktop_379X304._SY304_CB608495361_.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    
+
+
+</body>
+</html>
